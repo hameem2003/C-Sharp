@@ -44,7 +44,7 @@ namespace CRUD_with_DataGridView
                 return; // Exit the method if validation fails
             }
 
-            using (SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\project202\\CRUD with DataGridView\\Database\\CRUD with DataGridViewDatabase.mdf\";Integrated Security=True"))
+            using (SqlConnection con = new SqlConnection(Database.connectionstring))
             {
                 try
                 {
@@ -98,7 +98,7 @@ namespace CRUD_with_DataGridView
                 return; // Exit the method to prevent further execution
             }
 
-            using (SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\project202\\CRUD with DataGridView\\Database\\CRUD with DataGridViewDatabase.mdf\";Integrated Security=True"))
+            using (SqlConnection con = new SqlConnection(Database.connectionstring))
             {
                 try
                 {
@@ -151,7 +151,7 @@ namespace CRUD_with_DataGridView
                 return; // Exit the method to prevent further execution
             }
 
-            using (SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\project202\\CRUD with DataGridView\\Database\\CRUD with DataGridViewDatabase.mdf\";Integrated Security=True"))
+            using (SqlConnection con = new SqlConnection(Database.connectionstring))
             {
                 try
                 {
@@ -201,7 +201,7 @@ namespace CRUD_with_DataGridView
                 return; // Exit the method to prevent further execution
             }
 
-            using (SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\project202\\CRUD with DataGridView\\Database\\CRUD with DataGridViewDatabase.mdf\";Integrated Security=True"))
+            using (SqlConnection con = new SqlConnection(Database.connectionstring))
             {
                 try
                 {
@@ -237,7 +237,7 @@ namespace CRUD_with_DataGridView
 
         private void button_show_alldata_Click(object sender, EventArgs e)
         {
-            using (SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\project202\\CRUD with DataGridView\\Database\\CRUD with DataGridViewDatabase.mdf\";Integrated Security=True"))
+            using (SqlConnection con = new SqlConnection(Database.connectionstring))
             {
                 try
                 {
