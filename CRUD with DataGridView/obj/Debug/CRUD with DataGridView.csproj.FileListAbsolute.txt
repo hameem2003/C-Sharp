@@ -1,0 +1,10 @@
+D:\project202\CRUD with DataGridView\bin\Debug\CRUD with DataGridView.exe.config
+D:\project202\CRUD with DataGridView\bin\Debug\CRUD with DataGridView.exe
+D:\project202\CRUD with DataGridView\bin\Debug\CRUD with DataGridView.pdb
+D:\project202\CRUD with DataGridView\obj\Debug\CRUD with DataGridView.csproj.AssemblyReference.cache
+D:\project202\CRUD with DataGridView\obj\Debug\CRUD_with_DataGridView.Form1.resources
+D:\project202\CRUD with DataGridView\obj\Debug\CRUD_with_DataGridView.Properties.Resources.resources
+D:\project202\CRUD with DataGridView\obj\Debug\CRUD with DataGridView.csproj.GenerateResource.cache
+D:\project202\CRUD with DataGridView\obj\Debug\CRUD with DataGridView.csproj.CoreCompileInputs.cache
+D:\project202\CRUD with DataGridView\obj\Debug\CRUD with DataGridView.exe
+D:\project202\CRUD with DataGridView\obj\Debug\CRUD with DataGridView.pdb
