@@ -21,6 +21,20 @@
 2. Open the solution file `CRUD_With_DataGridView.sln` in Visual Studio.
 
 3. Build the solution to restore any required packages and dependencies.
+4. For >>database connection<<
+   1.go to "View>
+   Server Explorer>
+   Database Connections>
+   Add Connection
+   2.Data source :
+      >Microsoft SQL Server Database file(SqlClient)
+      >Database file name Browse
+       (go to)the downloaded file . Go in (Database file) and select >>"CRUD with DatabaseGridViewDatabase.mdf"<<
+      >now select this file from server Explorer
+      >go [ properties ] select Connection String And copy it
+     3.Open[ Database.cs]
+      > copyed connectionstring paste in " #paste "
+
 
 ## Usage
 
